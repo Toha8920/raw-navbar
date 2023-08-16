@@ -1,5 +1,6 @@
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
+import PhoneBar from './components/PhoneBar/PhoneBar'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <h1 className="">
         Hello world!
       </h1>
+      <PhoneBar></PhoneBar>
     </>
   )
 }
